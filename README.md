@@ -14,7 +14,7 @@
 - Solving business problem using EDA.
 - This is part of our course work at Upgrad ML & AI course.
 - The business problem is determining which consumer attributes and loan attributes influence the tendency of default.
-- The dataset used is of complete loan data for all loans issued through the time period 2007 t0 2011.
+- The dataset used is the complete loan data for all loans issued for the time period from 2007 to 2011.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
