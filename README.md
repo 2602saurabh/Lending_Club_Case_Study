@@ -19,11 +19,12 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-There were 39,717 records in the dataset. All of them had unique / different id and member id. Out of these 5,627 were charged off records which were used for further analysis. There were 111 variables to start with which I reduced to 45 by first removing columns/variables which had missing values for all records and then removing those which had same value for all records. Thus we were left with 5,627 records and 45 columns.
+There were 39,717 records in the dataset. All of them had unique / different id and member id. Out of these 5,627 were charged off records which were used for further analysis. There were 111 variables to start with which I reduced to 46 by first removing columns/variables which had missing values for all records and then removing those which had same value for all records. Thus we were left with 5,627 records and 46 columns.
 ### For charged off accounts
 - Majority of loans were from 3,000 to 20,000 and there were some outliers (approx. 200 out of 5,627) who had loan amount over 32,000.
 - The most frequent purposes for taking loan were Debt consolidation, credit card, small business, and other which accounted for approx. 80% of all.
 - People with 10+ years are the single largest group, and along with low experienced (<1, 1, 2 and 3 years) make up for approx. 65% of charged off accounts.
+- All customers with charged off accounts carried a high debt payment to income ratio (dti) ranging from 3 to 30 for over 90% of the loans, so this can act as a big red flag when processing the loan.
 - In grade E, F and G majority of the loans were given in a higher band (loan amount approx. 15-25k). There were lesser outliers because of this in these 2 bands. 
 - In grades A, B, C and D majority had lower loan amounts (5k -15k) but had lot of outliers (loan amount above 30k).
 - As grade decreases (A being highest and F being lowest), the interest rate increases.
